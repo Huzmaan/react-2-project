@@ -6,7 +6,7 @@ import Logo from '../Assets/img/logo.png';
 function Header({}){
     return  (
         <Navbar bg="light" expand="lg">
-  <Navbar.Brand href="#"><img src={Logo} alt="" /></Navbar.Brand>
+  <Navbar.Brand href="#"><img src={Logo} alt=""  style={{width:"40%"}}/></Navbar.Brand>
   <Navbar.Toggle aria-controls="navbarScroll" />
   <Navbar.Collapse id="navbarScroll">
     <Nav
